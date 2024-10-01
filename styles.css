@@ -1,47 +1,19 @@
-.custom-container {
-  max-width: 500px; /* Width of the container */
-  margin: auto;
-  overflow-x: auto; /* Allow horizontal scrolling */
-  padding-left: 20px; /* Add padding to make the first card visible */
-}
-
+/* Custom CSS for horizontal timeline */
 .timeline {
-  display: flex;
-  justify-content: flex-start;
   gap: 20px; /* Space between the cards */
-  padding: 20px 0;
-  scroll-behavior: smooth;
+  padding: 10px;
 }
 
 .timeline-item {
-  flex: 0 0 auto; /* Prevent shrinking or expanding */
-  width: 200px; /* Width of each card */
+  flex: 0 0 auto; /* Ensure cards don't shrink */
+  width: 15rem;
+}
+
+.container-sm {
+  max-width: 800px; /* Adjust container width to fit 3 cards */
 }
 
 .card {
   border: 1px solid #ddd;
-  border-radius: 10px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.card-img-top {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  height: 150px;
-  object-fit: cover;
-}
-
-.card-body {
-  padding: 15px;
-}
-
-.card-title {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.card-text {
-  font-size: 14px;
-  color: #555;
-  margin-top: 10px;
 }
