@@ -4,74 +4,87 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Horizontal Timeline with Bootstrap Image Cards</title>
+  <title>Horizontal Timeline</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-  <div class="custom-container my-5">
-    <h2 class="text-center mb-4">Horizontal Timeline</h2>
-    <div class="timeline">
-      <div class="timeline-item">
-        <div class="card">
-          <img src="https://drive.google.com/uc?export=view&id=1Vrhn1S9XOnvKeJ9rj1hBbinguorkWuAz" class="card-img-top" alt="Event 1">
-          <div class="card-body">
-            <h5 class="card-title">Event 1</h5>
-            <p class="card-text">Description of event 1 goes here.</p>
-          </div>
+  <div class="container-sm my-5">
+    <!--   <h2 class="text-center mb-4">My Timeline</h2> -->
+    <div class="timeline d-flex overflow-auto">
+      <div class="timeline-item card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Aug 2016</h5>
+          <h6 class="card-subtitle mb-2 text-muted">National University of Singapore (NUS)</h6>
+          <p class="card-text">Began my undergraduate studies in Materials Science and Engineering</p>
+        </div>
+      </div>
+      <div class="timeline-item card text-center">
+        <div class="card-body">
+          <h5 class="card-title">July 2018</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Linköping University</h6>
+          <p class="card-text">My first overseas solo trip & summer in Sweden, Linköping!</p>
+        </div>
+      </div>
+      <div class="timeline-item card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Jan 2019</h5>
+          <h6 class="card-subtitle mb-2 text-muted">China, Shenzhen</h6>
+          <p class="card-text">Sales & Marketing Internship in a Chinese startup and studied design thinking at SUSTech</p>
+        </div>
+      </div>
+      <div class="timeline-item card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Dec 2019</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Hanyang University</h6>
+          <p class="card-text">Experienced my first winter in Seoul, Korea while learning project management and their culture</p>
+        </div>
+      </div>
+      <div class="timeline-item card text-center">
+        <div class="card-body">
+          <h5 class="card-title">May 2020</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Graduation</h6>
+          <p class="card-text">Completed my undergraduate studies</p>
+        </div>
+      </div>
+      <div class="timeline-item card text-center">
+        <div class="card-body">
+          <h5 class="card-title">June 2020</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Vision.AI</h6>
+          <p class="card-text">Worked together with course mates to launch an automated stock inventory solution in hospital wards</p>
+        </div>
+      </div>
+      <div class="timeline-item card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Oct 2020</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Tata Consultancy Services</h6>
+          <p class="card-text">My first professional role as a Java Developer, Spring Microservices & API for a Banking client</p>
+        </div>
+      </div>
+      <div class="timeline-item card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Feb 2024</h5>
+          <h6 class="card-subtitle mb-2 text-muted">AWS</h6>
+          <p class="card-text">Completed my AWS Certified Cloud Practitioner</p>
+        </div>
+      </div>
+      <div class="timeline-item card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Aug 2024</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Carnatic Flute</h6>
+          <p class="card-text">Rendered my debut performance in Carnatic Flute together with Vinod, my classmate</p>
+        </div>
+      </div>
+      <div class="timeline-item card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Oct 2024</h5>
+          <h6 class="card-subtitle mb-2 text-muted">AI-ML</h6>
+          <p class="card-text">Completed my professional certificate in Artificial Intelligence & Machine Learning</p>
         </div>
       </div>
 
-      <div class="timeline-item">
-        <div class="card">
-          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Event 2">
-          <div class="card-body">
-            <h5 class="card-title">Event 2</h5>
-            <p class="card-text">Description of event 2 goes here.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="timeline-item">
-        <div class="card">
-          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Event 3">
-          <div class="card-body">
-            <h5 class="card-title">Event 3</h5>
-            <p class="card-text">Description of event 3 goes here.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Add more timeline items as needed -->
-      <div class="timeline-item">
-        <div class="card">
-          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Event 3">
-          <div class="card-body">
-            <h5 class="card-title">Event 3</h5>
-            <p class="card-text">Description of event 3 goes here.</p>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item">
-        <div class="card">
-          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Event 3">
-          <div class="card-body">
-            <h5 class="card-title">Event 3</h5>
-            <p class="card-text">Description of event 3 goes here.</p>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item">
-        <div class="card">
-          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Event 3">
-          <div class="card-body">
-            <h5 class="card-title">Event 3</h5>
-            <p class="card-text">Description of event 3 goes here.</p>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 
